@@ -1,0 +1,13 @@
+Com o Docker instalado, entre na pasta baixada pelo Prompt de Comando rode o comando abaixo. Esse comando vai fazer com que o ElasticSearch e o Kibana sejam baixados e instalados:
+
+docker-compose up -d
+
+O conteudo de cada uma das imagens será baixado o que pode demorar um pouco, mas estando tudo no ar basta acessar no 
+navegador com http://localhost:portas_abaixo:
+
+Elasticsearch - Porta 9200
+Kibana - Porta 5601
+
+Para monitorar logs de inicialização de cada serviço digite o comando abaixo:
+
+docker-compose logs -f
